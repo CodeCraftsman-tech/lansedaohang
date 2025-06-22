@@ -1,0 +1,62 @@
+body,html {
+        padding: 0;
+        margin: 0;
+        font-size: 15x auto;
+		font-family: "微软雅黑";
+    }
+    .header {
+        background-color: #232413;
+        color: white;
+        font-size: 18px;
+        line-height: 250%;
+    }
+    .header > .container {
+        width: 100%;
+        margin: 0 auto;
+        height: 45px;
+    }
+    .header > .container > .brand {
+        float: left;
+    }
+    .header > .container > .title {
+       padding-left: 10px;
+        float: left;
+    }
+    .notice {
+        margin: 10px auto;
+        width: 80%;
+        padding: 0 15px;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+    }
+    .detail {
+        margin: 10px auto;
+        width: 80%;
+        padding: 15px;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+    }
+    .detail > .title {
+      	color: #FF3399;
+        height: 40px;
+        border-bottom: 1px solid #ddd;
+    }
+    .footer {
+        background-color: #232413;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .footer > .container {
+        margin: 10px auto;
+        width: 100%;
+        padding-bottom: 5px;
+        color: white;
+        text-align: center;
+    }
+    .text-red {
+        color: red;
+    }
+    hr {
+        border-bottom: 1px solid #ccc!important;
+        border: none;
+    }
